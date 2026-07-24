@@ -1,6 +1,7 @@
 import Logo from './Logo';
 import { CONTACT_INFO, generateWhatsAppLink } from '../data/constants';
-import { Instagram, Facebook, Youtube, Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin } from "lucide-react";
+import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -18,13 +19,13 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-foreground hover:bg-primary hover:text-white transition-colors">
-                <Instagram size={20} />
+                <FaInstagram size={20} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-foreground hover:bg-primary hover:text-white transition-colors">
-                <Facebook size={20} />
+                <FaFacebook size={20} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-foreground hover:bg-primary hover:text-white transition-colors">
-                <Youtube size={20} />
+                <FaYoutube size={20} />
               </a>
             </div>
           </div>
