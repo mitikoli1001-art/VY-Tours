@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-card-border: hsl(var(--card-border));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-popover-border: hsl(var(--popover-border));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-primary-border: var(--primary-border);
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-secondary-border: var(--secondary-border);
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-muted-border: var(--muted-border);
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-accent-border: var(--accent-border);
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-destructive-border: var(--destructive-border);
+
+  --font-sans: var(--app-font-sans);
+  --font-serif: var(--app-font-serif);
+  --font-mono: var(--app-font-mono);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --app-font-sans: 'DM Sans', sans-serif;
+  --app-font-serif: 'Playfair Display', serif;
+  --app-font-mono: monospace;
+  
+  --radius: 0.75rem;
+
+  --background: 0 100% 99%;
+  --foreground: 0 0% 3%;
+  --border: 342 13% 85%;
+  --input: 342 13% 85%;
+  --ring: 339 27% 29%;
+  --card: 0 100% 100%;
+  --card-foreground: 0 0% 3%;
+  --card-border: 342 13% 90%;
+  
+  --popover: 0 100% 100%;
+  --popover-foreground: 0 0% 3%;
+  --popover-border: 342 13% 90%;
+  
+  --primary: 339 27% 29%;
+  --primary-foreground: 0 100% 99%;
+  
+  --secondary: 339 15% 41%;
+  --secondary-foreground: 0 100% 99%;
+  
+  --muted: 342 13% 95%;
+  --muted-foreground: 339 27% 29%;
+  
+  --accent: 342 13% 70%;
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --button-outline: rgba(0, 0, 0, 0.1);
+  --badge-outline: rgba(0, 0, 0, 0.05);
+
+  --opaque-button-border-intensity: -8;
+
+  --elevate-1: rgba(0, 0, 0, 0.03);
+  --elevate-2: rgba(0, 0, 0, 0.08);
+
+  --sidebar-primary-border: hsl(var(--primary));
+  --sidebar-accent-border: hsl(var(--accent));
+  --primary-border: hsl(var(--primary));
+  --secondary-border: hsl(var(--secondary));
+  --muted-border: hsl(var(--muted));
+  --accent-border: hsl(var(--accent));
+  --destructive-border: hsl(var(--destructive));
+}
+
+.dark {
+  /* Enforcing light theme visually as it's a travel site with warm aesthetic */
+  --background: 0 0% 10%;
+  --foreground: 0 100% 99%;
+  --border: 342 13% 20%;
+  --input: 342 13% 20%;
+  --ring: 339 27% 50%;
+  --card: 0 0% 12%;
+  --card-foreground: 0 100% 99%;
+  --card-border: 342 13% 20%;
+  
+  --popover: 0 0% 12%;
+  --popover-foreground: 0 100% 99%;
+  --popover-border: 342 13% 20%;
+  
+  --primary: 339 27% 60%;
+  --primary-foreground: 0 0% 10%;
+  
+  --secondary: 339 15% 70%;
+  --secondary-foreground: 0 0% 10%;
+  
+  --muted: 342 13% 20%;
+  --muted-foreground: 339 27% 80%;
+  
+  --accent: 342 13% 30%;
+  --accent-foreground: 0 100% 99%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 100% 99%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.frosted-glass {
+  background: rgba(255, 252, 252, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, hsl(var(--primary)), hsl(var(--secondary)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
