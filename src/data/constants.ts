@@ -13,21 +13,21 @@ export const CONTACT_INFO = {
 };
 
 export const DESTINATIONS = [
-  { id: 'lonavala', name: 'Lonavala & Khandala', desc: 'Misty hills and cascading waterfalls.', img: '/dest_lonavala.jpg' },
-  { id: 'mahabaleshwar', name: 'Mahabaleshwar', desc: 'Strawberry fields and stunning viewpoints.', img: '/dest_mahabaleshwar.jpg' },
-  { id: 'matheran', name: 'Matheran', desc: 'Asia’s only automobile-free hill station.', img: null },
-  { id: 'alibaug', name: 'Alibaug', desc: 'Golden beaches and coastal forts.', img: '/dest_alibaug.jpg' },
-  { id: 'igatpuri', name: 'Igatpuri', desc: 'Serene nature and wellness retreats.', img: null },
-  { id: 'nashik', name: 'Nashik', desc: 'Wine capital of India.', img: '/dest_nashik.jpg' },
-  { id: 'konkan', name: 'Konkan', desc: 'Untouched beaches and authentic seafood.', img: null },
-  { id: 'ratnagiri', name: 'Ratnagiri', desc: 'Alphonso mangoes and historic temples.', img: null },
-  { id: 'sindhudurg', name: 'Sindhudurg', desc: 'Magnificent sea forts and scuba diving.', img: null },
-  { id: 'pune', name: 'Pune', desc: 'Cultural capital with a rich Maratha history.', img: null },
+  { id: 'lonavala', name: 'Lonavala & Khandala', desc: 'Misty hills and cascading waterfalls.', img: '/Lonavala.jpeg' },
+  { id: 'mahabaleshwar', name: 'Mahabaleshwar', desc: 'Strawberry fields and stunning viewpoints.', img: '/Mahabaleshwar.jpeg' },
+  { id: 'matheran', name: 'Matheran', desc: 'Asia’s only automobile-free hill station.', img: '/Matheran.jpeg' },
+  { id: 'alibaug', name: 'Alibaug', desc: 'Golden beaches and coastal forts.', img: '/Alibaug.jpeg' },
+  { id: 'igatpuri', name: 'Igatpuri', desc: 'Serene nature and wellness retreats.', img: '/Igatpuri.jpeg' },
+  { id: 'nashik', name: 'Nashik', desc: 'Wine capital of India.', img: '/nashik.jpeg' },
+  { id: 'konkan', name: 'Konkan', desc: 'Untouched beaches and authentic seafood.', img: '/Kokan.jpeg' },
+  { id: 'ratnagiri', name: 'Ratnagiri', desc: 'Alphonso mangoes and historic temples.', img: '/Ratnagiri.jpeg' },
+  { id: 'sindhudurg', name: 'Sindhudurg', desc: 'Magnificent sea forts and scuba diving.', img: '/Sindhudurg.jpeg' },
+  { id: 'pune', name: 'Pune', desc: 'Cultural capital with a rich Maratha history.', img: '/Pune.jpeg' },
   { id: 'mumbai', name: 'Mumbai', desc: 'The city of dreams and colonial heritage.', img: null },
-  { id: 'sambhajinagar', name: 'Chhatrapati Sambhajinagar', desc: 'Gateway to ancient rock-cut caves.', img: null },
-  { id: 'ajanta', name: 'Ajanta & Ellora', desc: 'UNESCO World Heritage architectural marvels.', img: null },
-  { id: 'tadoba', name: 'Tadoba', desc: 'Thrilling tiger safaris and rich wildlife.', img: '/dest_tadoba.jpg' },
-  { id: 'kolhapur', name: 'Kolhapur', desc: 'Spiritual heritage and spicy local cuisine.', img: null },
+  { id: 'sambhajinagar', name: 'Chhatrapati Sambhajinagar', desc: 'Gateway to ancient rock-cut caves.', img: '/Sambhaji-Nagar.jpeg' },
+  { id: 'ajanta', name: 'Ajanta & Ellora', desc: 'UNESCO World Heritage architectural marvels.', img: '/Ajanta.jpeg' },
+  { id: 'tadoba', name: 'Tadoba', desc: 'Thrilling tiger safaris and rich wildlife.', img: '/Tadoba.jpeg' },
+  { id: 'kolhapur', name: 'Kolhapur', desc: 'Spiritual heritage and spicy local cuisine.', img: '/Kolhapur.jpeg' },
 ];
 
 export const EXPERIENCES = [
@@ -41,56 +41,56 @@ export const EXPERIENCES = [
   { id: 'family', label: 'Family Adventures', icon: '👨‍👩‍👧', img: null },
 ];
 
-export const TOUR_PACKAGES = [
-  {
-    id: 'pkg1',
-    title: 'Lonavala Weekend Escape',
-    duration: '2 Days / 1 Night',
-    price: '₹3,999',
-    img: '/pkg_lonavala.jpg',
-    highlights: ['Stay in a premium hill resort', 'Visit Tiger Point & Bhushi Dam', 'Complimentary breakfast & dinner']
-  },
-  {
-    id: 'pkg2',
-    title: 'Mahabaleshwar Hill Retreat',
-    duration: '3 Days / 2 Nights',
-    price: '₹5,999',
-    img: '/Mahabaleshwar-Stay.jpg',
-    highlights: ['Sightseeing of Pratapgarh Fort', 'Strawberry farm visit & tasting', 'Boating at Venna Lake']
-  },
-  {
-    id: 'pkg3',
-    title: 'Konkan Coastal Escape',
-    duration: '4 Days / 3 Nights',
-    price: '₹8,499',
-    img: '/pkg_konkan.jpg',
-    highlights: ['Beachfront cottage stay', 'Authentic Malvani cuisine meals', 'Sindhudurg Fort tour & scuba diving']
-  },
-  {
-    id: 'pkg4',
-    title: 'Maharashtra Heritage Trail',
-    duration: '5 Days / 4 Nights',
-    price: '₹12,999',
-    img: '/pkg_heritage.jpg',
-    highlights: ['Ajanta & Ellora caves tour', 'Daulatabad Fort exploration', 'Guided historical walks with experts']
-  },
-  {
-    id: 'pkg5',
-    title: 'Alibaug Beach Getaway',
-    duration: '2 Days / 1 Night',
-    price: '₹4,499',
-    img: '/dest_alibaug.jpg',
-    highlights: ['Ferry tickets from Mumbai included', 'Stay near Nagaon Beach', 'Water sports assistance provided']
-  },
-  {
-    id: 'pkg6',
-    title: 'Nashik Wine & Nature Tour',
-    duration: '2 Days / 1 Night',
-    price: '₹4,999',
-    img: '/dest_nashik.jpg',
-    highlights: ['Vineyard tour and wine tasting', 'Trimbakeshwar temple visit', 'Stay amidst lush green valleys']
-  }
-];
+// export const TOUR_PACKAGES = [
+//   {
+//     id: 'pkg1',
+//     title: 'Lonavala Weekend Escape',
+//     duration: '2 Days / 1 Night',
+//     price: '₹3,999',
+//     img: '/Lonavala-Stay.jpg',
+//     highlights: ['Stay in a premium hill resort', 'Visit Tiger Point & Bhushi Dam', 'Complimentary breakfast & dinner']
+//   },
+//   {
+//     id: 'pkg2',
+//     title: 'Mahabaleshwar Hill Retreat',
+//     duration: '3 Days / 2 Nights',
+//     price: '₹5,999',
+//     img: '/Mahabaleshwar-Stay.jpg',
+//     highlights: ['Sightseeing of Pratapgarh Fort', 'Strawberry farm visit & tasting', 'Boating at Venna Lake']
+//   },
+//   {
+//     id: 'pkg3',
+//     title: 'Konkan Coastal Escape',
+//     duration: '4 Days / 3 Nights',
+//     price: '₹8,499',
+//     img: '/Kokan-Stay.jpg',
+//     highlights: ['Beachfront cottage stay', 'Authentic Malvani cuisine meals', 'Sindhudurg Fort tour & scuba diving']
+//   },
+//   {
+//     id: 'pkg4',
+//     title: 'Maharashtra Heritage Trail',
+//     duration: '5 Days / 4 Nights',
+//     price: '₹12,999',
+//     img: '/Maha-Heritage.jpg',
+//     highlights: ['Ajanta & Ellora caves tour', 'Daulatabad Fort exploration', 'Guided historical walks with experts']
+//   },
+//   {
+//     id: 'pkg5',
+//     title: 'Alibaug Beach Getaway',
+//     duration: '2 Days / 1 Night',
+//     price: '₹4,499',
+//     img: '/Alibaug.jpg',
+//     highlights: ['Ferry tickets from Mumbai included', 'Stay near Nagaon Beach', 'Water sports assistance provided']
+//   },
+//   {
+//     id: 'pkg6',
+//     title: 'Nashik Wine & Nature Tour',
+//     duration: '2 Days / 1 Night',
+//     price: '₹4,999',
+//     img: '/Nashik-Wine.jpg',
+//     highlights: ['Vineyard tour and wine tasting', 'Trimbakeshwar temple visit', 'Stay amidst lush green valleys']
+//   }
+// ];
 
 export const TESTIMONIALS = [
   {
