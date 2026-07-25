@@ -30,7 +30,7 @@ function App() {
             <Hero />
             <ExploreSection />
             <ExperiencesSection />src/pages
-            <TourPackages />
+            {/* <TourPackages /> */}
             <MaharashtraMap />
             <WhyChooseUs />
             <AboutUs />
