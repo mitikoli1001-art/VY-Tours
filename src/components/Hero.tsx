@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/40 z-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent z-10" />
         <img 
-          src="/Maharashtra Landscape.jpg" 
+          src="/Maharashtra-Landscape.jpg" 
           alt="Beautiful Maharashtra-Landscape" 
           className="w-full h-full object-cover object-center"
         />
