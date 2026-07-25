@@ -23,7 +23,7 @@ export const DESTINATIONS = [
   { id: 'ratnagiri', name: 'Ratnagiri', desc: 'Alphonso mangoes and historic temples.', img: '/Ratnagiri.jpeg' },
   { id: 'sindhudurg', name: 'Sindhudurg', desc: 'Magnificent sea forts and scuba diving.', img: '/Sindhudurg.jpeg' },
   { id: 'pune', name: 'Pune', desc: 'Cultural capital with a rich Maratha history.', img: '/Pune.jpeg' },
-  { id: 'mumbai', name: 'Mumbai', desc: 'The city of dreams and colonial heritage.', img: null },
+  { id: 'mumbai', name: 'Mumbai', desc: 'The city of dreams and colonial heritage.', img: 'Mumbai.jpg' },
   { id: 'sambhajinagar', name: 'Chhatrapati Sambhajinagar', desc: 'Gateway to ancient rock-cut caves.', img: '/Sambhaji-Nagar.jpeg' },
   { id: 'ajanta', name: 'Ajanta & Ellora', desc: 'UNESCO World Heritage architectural marvels.', img: '/Ajanta.jpeg' },
   { id: 'tadoba', name: 'Tadoba', desc: 'Thrilling tiger safaris and rich wildlife.', img: '/Tadoba.jpeg' },
