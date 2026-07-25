@@ -69,7 +69,7 @@ export default function MaharashtraMap() {
                 whileHover={{ scale: 1.2 }}
               >
                 <div className={`relative flex items-center justify-center transition-colors ${isActive ? 'text-primary' : 'text-secondary group-hover:text-primary'}`}>
-                  <MapPin size={32} weight={isActive ? 'fill' : 'regular'} className={isActive ? 'fill-primary/20' : ''} />
+                  <MapPin size={32} fill={isActive ? 'fill' : 'regular'} className={isActive ? 'fill-primary/20' : ''} />
                   <span className={`absolute top-full mt-1 px-2 py-0.5 text-xs font-bold rounded-sm whitespace-nowrap transition-opacity ${isActive ? 'bg-primary text-white opacity-100' : 'bg-background/80 text-foreground opacity-0 group-hover:opacity-100'}`}>
                     {dest.name}
                   </span>

@@ -14,8 +14,8 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/40 z-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent z-10" />
         <img 
-          src="/attached_assets/generated_images/hero.jpg" 
-          alt="Beautiful Maharashtra Landscape" 
+          src="/Maharashtra Landscape.jpg" 
+          alt="Beautiful Maharashtra-Landscape" 
           className="w-full h-full object-cover object-center"
         />
       </div>
@@ -81,7 +81,7 @@ export default function Hero() {
         transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
         aria-label="Scroll down"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinelinejoin="round">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 5v14M19 12l-7 7-7-7"/>
         </svg>
       </motion.button>

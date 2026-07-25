@@ -13,12 +13,12 @@ export const CONTACT_INFO = {
 };
 
 export const DESTINATIONS = [
-  { id: 'lonavala', name: 'Lonavala & Khandala', desc: 'Misty hills and cascading waterfalls.', img: '/attached_assets/generated_images/dest_lonavala.jpg' },
-  { id: 'mahabaleshwar', name: 'Mahabaleshwar', desc: 'Strawberry fields and stunning viewpoints.', img: '/attached_assets/generated_images/dest_mahabaleshwar.jpg' },
+  { id: 'lonavala', name: 'Lonavala & Khandala', desc: 'Misty hills and cascading waterfalls.', img: '/dest_lonavala.jpg' },
+  { id: 'mahabaleshwar', name: 'Mahabaleshwar', desc: 'Strawberry fields and stunning viewpoints.', img: '/dest_mahabaleshwar.jpg' },
   { id: 'matheran', name: 'Matheran', desc: 'Asia’s only automobile-free hill station.', img: null },
-  { id: 'alibaug', name: 'Alibaug', desc: 'Golden beaches and coastal forts.', img: '/attached_assets/generated_images/dest_alibaug.jpg' },
+  { id: 'alibaug', name: 'Alibaug', desc: 'Golden beaches and coastal forts.', img: '/dest_alibaug.jpg' },
   { id: 'igatpuri', name: 'Igatpuri', desc: 'Serene nature and wellness retreats.', img: null },
-  { id: 'nashik', name: 'Nashik', desc: 'Wine capital of India.', img: '/attached_assets/generated_images/dest_nashik.jpg' },
+  { id: 'nashik', name: 'Nashik', desc: 'Wine capital of India.', img: '/dest_nashik.jpg' },
   { id: 'konkan', name: 'Konkan', desc: 'Untouched beaches and authentic seafood.', img: null },
   { id: 'ratnagiri', name: 'Ratnagiri', desc: 'Alphonso mangoes and historic temples.', img: null },
   { id: 'sindhudurg', name: 'Sindhudurg', desc: 'Magnificent sea forts and scuba diving.', img: null },
@@ -26,18 +26,18 @@ export const DESTINATIONS = [
   { id: 'mumbai', name: 'Mumbai', desc: 'The city of dreams and colonial heritage.', img: null },
   { id: 'sambhajinagar', name: 'Chhatrapati Sambhajinagar', desc: 'Gateway to ancient rock-cut caves.', img: null },
   { id: 'ajanta', name: 'Ajanta & Ellora', desc: 'UNESCO World Heritage architectural marvels.', img: null },
-  { id: 'tadoba', name: 'Tadoba', desc: 'Thrilling tiger safaris and rich wildlife.', img: '/attached_assets/generated_images/dest_tadoba.jpg' },
+  { id: 'tadoba', name: 'Tadoba', desc: 'Thrilling tiger safaris and rich wildlife.', img: '/dest_tadoba.jpg' },
   { id: 'kolhapur', name: 'Kolhapur', desc: 'Spiritual heritage and spicy local cuisine.', img: null },
 ];
 
 export const EXPERIENCES = [
-  { id: 'hill', label: 'Hill Station Escapes', icon: '🏔️', img: '/attached_assets/generated_images/exp_hill.jpg' },
-  { id: 'coastal', label: 'Coastal Getaways', icon: '🌊', img: '/attached_assets/generated_images/exp_coastal.jpg' },
-  { id: 'fort', label: 'Fort & Heritage Trails', icon: '🏰', img: '/attached_assets/generated_images/exp_fort.jpg' },
-  { id: 'nature', label: 'Nature & Wildlife', icon: '🌿', img: '/attached_assets/generated_images/dest_tadoba.jpg' },
-  { id: 'spiritual', label: 'Spiritual Journeys', icon: '🛕', img: '/attached_assets/generated_images/exp_spiritual.jpg' },
-  { id: 'food', label: 'Food & Culture', icon: '🍽️', img: '/attached_assets/generated_images/gal_1.jpg' },
-  { id: 'couple', label: 'Couple Getaways', icon: '💕', img: '/attached_assets/generated_images/gal_5.jpg' },
+  { id: 'hill', label: 'Hill Station Escapes', icon: '🏔️', img: '/exp_hill.jpg' },
+  { id: 'coastal', label: 'Coastal Getaways', icon: '🌊', img: '/exp_coastal.jpg' },
+  { id: 'fort', label: 'Fort & Heritage Trails', icon: '🏰', img: '/exp_fort.jpg' },
+  { id: 'nature', label: 'Nature & Wildlife', icon: '🌿', img: '/dest_tadoba.jpg' },
+  { id: 'spiritual', label: 'Spiritual Journeys', icon: '🛕', img: '/exp_spiritual.jpg' },
+  { id: 'food', label: 'Food & Culture', icon: '🍽️', img: '/gal_1.jpg' },
+  { id: 'couple', label: 'Couple Getaways', icon: '💕', img: '/gal_5.jpg' },
   { id: 'family', label: 'Family Adventures', icon: '👨‍👩‍👧', img: null },
 ];
 
@@ -47,7 +47,7 @@ export const TOUR_PACKAGES = [
     title: 'Lonavala Weekend Escape',
     duration: '2 Days / 1 Night',
     price: '₹3,999',
-    img: '/attached_assets/generated_images/pkg_lonavala.jpg',
+    img: '/pkg_lonavala.jpg',
     highlights: ['Stay in a premium hill resort', 'Visit Tiger Point & Bhushi Dam', 'Complimentary breakfast & dinner']
   },
   {
@@ -55,7 +55,7 @@ export const TOUR_PACKAGES = [
     title: 'Mahabaleshwar Hill Retreat',
     duration: '3 Days / 2 Nights',
     price: '₹5,999',
-    img: '/attached_assets/generated_images/dest_mahabaleshwar.jpg',
+    img: '/dest_mahabaleshwar.jpg',
     highlights: ['Sightseeing of Pratapgarh Fort', 'Strawberry farm visit & tasting', 'Boating at Venna Lake']
   },
   {
@@ -63,7 +63,7 @@ export const TOUR_PACKAGES = [
     title: 'Konkan Coastal Escape',
     duration: '4 Days / 3 Nights',
     price: '₹8,499',
-    img: '/attached_assets/generated_images/pkg_konkan.jpg',
+    img: '/pkg_konkan.jpg',
     highlights: ['Beachfront cottage stay', 'Authentic Malvani cuisine meals', 'Sindhudurg Fort tour & scuba diving']
   },
   {
@@ -71,7 +71,7 @@ export const TOUR_PACKAGES = [
     title: 'Maharashtra Heritage Trail',
     duration: '5 Days / 4 Nights',
     price: '₹12,999',
-    img: '/attached_assets/generated_images/pkg_heritage.jpg',
+    img: '/pkg_heritage.jpg',
     highlights: ['Ajanta & Ellora caves tour', 'Daulatabad Fort exploration', 'Guided historical walks with experts']
   },
   {
@@ -79,7 +79,7 @@ export const TOUR_PACKAGES = [
     title: 'Alibaug Beach Getaway',
     duration: '2 Days / 1 Night',
     price: '₹4,499',
-    img: '/attached_assets/generated_images/dest_alibaug.jpg',
+    img: '/dest_alibaug.jpg',
     highlights: ['Ferry tickets from Mumbai included', 'Stay near Nagaon Beach', 'Water sports assistance provided']
   },
   {
@@ -87,7 +87,7 @@ export const TOUR_PACKAGES = [
     title: 'Nashik Wine & Nature Tour',
     duration: '2 Days / 1 Night',
     price: '₹4,999',
-    img: '/attached_assets/generated_images/dest_nashik.jpg',
+    img: '/dest_nashik.jpg',
     highlights: ['Vineyard tour and wine tasting', 'Trimbakeshwar temple visit', 'Stay amidst lush green valleys']
   }
 ];

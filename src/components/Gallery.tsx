@@ -2,14 +2,14 @@ import { motion } from 'framer-motion';
 
 const IMAGES = [
   { id: 1, src: '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ttNIYNAY6iOyVItmRqchzZ_-OgB6e1dxpZJWAGifyg&s=10" alt="Maharashtra destination" />', alt: 'Maharashtrian Cuisine', size: 'small' },
-  { id: 2, src: '/attached_assets/generated_images/gal_2.jpg', alt: 'Western Ghats Waterfall', size: 'large' },
-  { id: 3, src: '/attached_assets/generated_images/gal_3.jpg', alt: 'Coastal Road', size: 'medium' },
-  { id: 4, src: '/attached_assets/generated_images/dest_tadoba.jpg', alt: 'Wildlife Safari', size: 'small' },
-  { id: 5, src: '/attached_assets/generated_images/gal_4.jpg', alt: 'Heritage Caves', size: 'large' },
-  { id: 6, src: '/attached_assets/generated_images/gal_5.jpg', alt: 'Matheran Sunrise', size: 'medium' },
-  { id: 7, src: '/attached_assets/generated_images/dest_alibaug.jpg', alt: 'Alibaug Beach', size: 'small' },
-  { id: 8, src: '/attached_assets/generated_images/exp_fort.jpg', alt: 'Fort Heritage', size: 'large' },
-  { id: 9, src: '/attached_assets/generated_images/exp_spiritual.jpg', alt: 'Spiritual Journey', size: 'medium' },
+  { id: 2, src: '/gal_2.jpg', alt: 'Western Ghats Waterfall', size: 'large' },
+  { id: 3, src: '/gal_3.jpg', alt: 'Coastal Road', size: 'medium' },
+  { id: 4, src: '/dest_tadoba.jpg', alt: 'Wildlife Safari', size: 'small' },
+  { id: 5, src: '/gal_4.jpg', alt: 'Heritage Caves', size: 'large' },
+  { id: 6, src: '/gal_5.jpg', alt: 'Matheran Sunrise', size: 'medium' },
+  { id: 7, src: '/dest_alibaug.jpg', alt: 'Alibaug Beach', size: 'small' },
+  { id: 8, src: '/exp_fort.jpg', alt: 'Fort Heritage', size: 'large' },
+  { id: 9, src: '/exp_spiritual.jpg', alt: 'Spiritual Journey', size: 'medium' },
 ];
 
 export default function Gallery() {
