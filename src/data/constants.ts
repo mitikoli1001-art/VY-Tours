@@ -55,7 +55,7 @@ export const TOUR_PACKAGES = [
     title: 'Mahabaleshwar Hill Retreat',
     duration: '3 Days / 2 Nights',
     price: '₹5,999',
-    img: '/dest_mahabaleshwar.jpg',
+    img: '/Mahabaleshwar-Stay.jpg',
     highlights: ['Sightseeing of Pratapgarh Fort', 'Strawberry farm visit & tasting', 'Boating at Venna Lake']
   },
   {
