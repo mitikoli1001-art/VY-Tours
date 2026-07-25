@@ -41,56 +41,56 @@ export const EXPERIENCES = [
   { id: 'family', label: 'Family Adventures', icon: '👨‍👩‍👧', img: null },
 ];
 
-// export const TOUR_PACKAGES = [
-//   {
-//     id: 'pkg1',
-//     title: 'Lonavala Weekend Escape',
-//     duration: '2 Days / 1 Night',
-//     price: '₹3,999',
-//     img: '/Lonavala-Stay.jpg',
-//     highlights: ['Stay in a premium hill resort', 'Visit Tiger Point & Bhushi Dam', 'Complimentary breakfast & dinner']
-//   },
-//   {
-//     id: 'pkg2',
-//     title: 'Mahabaleshwar Hill Retreat',
-//     duration: '3 Days / 2 Nights',
-//     price: '₹5,999',
-//     img: '/Mahabaleshwar-Stay.jpg',
-//     highlights: ['Sightseeing of Pratapgarh Fort', 'Strawberry farm visit & tasting', 'Boating at Venna Lake']
-//   },
-//   {
-//     id: 'pkg3',
-//     title: 'Konkan Coastal Escape',
-//     duration: '4 Days / 3 Nights',
-//     price: '₹8,499',
-//     img: '/Kokan-Stay.jpg',
-//     highlights: ['Beachfront cottage stay', 'Authentic Malvani cuisine meals', 'Sindhudurg Fort tour & scuba diving']
-//   },
-//   {
-//     id: 'pkg4',
-//     title: 'Maharashtra Heritage Trail',
-//     duration: '5 Days / 4 Nights',
-//     price: '₹12,999',
-//     img: '/Maha-Heritage.jpg',
-//     highlights: ['Ajanta & Ellora caves tour', 'Daulatabad Fort exploration', 'Guided historical walks with experts']
-//   },
-//   {
-//     id: 'pkg5',
-//     title: 'Alibaug Beach Getaway',
-//     duration: '2 Days / 1 Night',
-//     price: '₹4,499',
-//     img: '/Alibaug.jpg',
-//     highlights: ['Ferry tickets from Mumbai included', 'Stay near Nagaon Beach', 'Water sports assistance provided']
-//   },
-//   {
-//     id: 'pkg6',
-//     title: 'Nashik Wine & Nature Tour',
-//     duration: '2 Days / 1 Night',
-//     price: '₹4,999',
-//     img: '/Nashik-Wine.jpg',
-//     highlights: ['Vineyard tour and wine tasting', 'Trimbakeshwar temple visit', 'Stay amidst lush green valleys']
-//   }
-// ];
+export const TOUR_PACKAGES = [
+  {
+    id: 'pkg1',
+    title: 'Lonavala Weekend Escape',
+    duration: '2 Days / 1 Night',
+    price: '₹3,999',
+    img: '/Lonavala-Stay.jpg',
+    highlights: ['Stay in a premium hill resort', 'Visit Tiger Point & Bhushi Dam', 'Complimentary breakfast & dinner']
+  },
+  {
+    id: 'pkg2',
+    title: 'Mahabaleshwar Hill Retreat',
+    duration: '3 Days / 2 Nights',
+    price: '₹5,999',
+    img: '/Mahabaleshwar-Stay.jpg',
+    highlights: ['Sightseeing of Pratapgarh Fort', 'Strawberry farm visit & tasting', 'Boating at Venna Lake']
+  },
+  {
+    id: 'pkg3',
+    title: 'Konkan Coastal Escape',
+    duration: '4 Days / 3 Nights',
+    price: '₹8,499',
+    img: '/Kokan-Stay.jpg',
+    highlights: ['Beachfront cottage stay', 'Authentic Malvani cuisine meals', 'Sindhudurg Fort tour & scuba diving']
+  },
+  {
+    id: 'pkg4',
+    title: 'Maharashtra Heritage Trail',
+    duration: '5 Days / 4 Nights',
+    price: '₹12,999',
+    img: '/Maha-Heritage.jpg',
+    highlights: ['Ajanta & Ellora caves tour', 'Daulatabad Fort exploration', 'Guided historical walks with experts']
+  },
+  {
+    id: 'pkg5',
+    title: 'Alibaug Beach Getaway',
+    duration: '2 Days / 1 Night',
+    price: '₹4,499',
+    img: '/Alibaug.jpg',
+    highlights: ['Ferry tickets from Mumbai included', 'Stay near Nagaon Beach', 'Water sports assistance provided']
+  },
+  {
+    id: 'pkg6',
+    title: 'Nashik Wine & Nature Tour',
+    duration: '2 Days / 1 Night',
+    price: '₹4,999',
+    img: '/Nashik-Wine.jpg',
+    highlights: ['Vineyard tour and wine tasting', 'Trimbakeshwar temple visit', 'Stay amidst lush green valleys']
+  }
+];
 
 export const TESTIMONIALS = [
   {

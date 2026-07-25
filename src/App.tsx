@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ExploreSection from './components/ExploreSection';
 import ExperiencesSection from './components/ExperiencesSection';
-import TourPackages from './components/TourPackages';
+// import TourPackages from './components/TourPackages';
 import MaharashtraMap from './components/MaharashtraMap';
 import WhyChooseUs from './components/WhyChooseUs';
 import AboutUs from './components/AboutUs';
@@ -29,7 +29,7 @@ function App() {
           <main className="flex-1 w-full flex flex-col">
             <Hero />
             <ExploreSection />
-            <ExperiencesSection />
+            <ExperiencesSection />src/pages
             <TourPackages />
             <MaharashtraMap />
             <WhyChooseUs />
